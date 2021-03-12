@@ -1,0 +1,15 @@
+<ngb-carousel *ngIf="images"
+              class="styles"
+              [showNavigationArrows]="showNavigationArrows"
+              [interval]="3500"
+              wrap="true"
+              [showNavigationIndicators]="showNavigationIndicators"
+              [pauseOnHover]="false">
+  <ng-template ngbSlide *ngFor="let image of images">
+    <div style="height: 89vh">
+      <div class="carousel-caption">
+      </div>
+      <img [src]="image.img" alt="Random slide" class="w-30" >
+    </div>
+  </ng-template>
+</ngb-carousel>

@@ -1,0 +1,24 @@
+.text {
+  display: block;
+  writing-mode: vertical-lr !important;
+  transform: rotate(180deg) !important;
+  font-size: 5em;
+  margin-left: 1.5em;
+  font-family: 'luxes';
+}
+
+.sectionAbout {
+  background-color: #ECE9E4;
+  margin-top: 17em;
+
+}
+.sectionContact {
+  margin: 0;
+  background-color: #F3E8DC;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+
+

@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+@font-face {
+  font-family: lato;
+  src: url(assets/fonts/modernica-tropico.otf) format("opentype");
+}
+
+@font-face {
+  font-family: lato;
+  src: url(assets/fonts/luxes.ttf) format("opentype");
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #D8C4B2;
+  margin: 0;
+  font-family: Roboto,
+  "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'marigold';
+}
+

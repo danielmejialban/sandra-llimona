@@ -1,0 +1,45 @@
+<form [formGroup]="contactForm" novalidate>
+  <div>
+    <h1>Contact me</h1>
+  </div>
+     <div class="row">
+      <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput formControlName="name" >
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email">
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field>
+        <mat-label>Phone</mat-label>
+        <input matInput formControlName="phone">
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <mat-form-field>
+        <mat-label>Comments</mat-label>
+        <input matInput formControlName="comments">
+      </mat-form-field>
+    </div>
+</form>
+<div>
+  <button mat-button [disabled]="!contactForm.valid">Send</button>
+</div>
+<div class="row d-flex justify-content-start m-0">
+  <div class="img-fluid p-3">
+    <a href="https://www.instagram.com/sandrallimona/">
+      <img src="assets/img/instagram.png" alt="Responsive image">
+    </a>
+  </div>
+  <div class="img-fluid p-3">
+    <a href="https://www.tiktok.com/@sandrallimona">
+      <img src="assets/img/tiktok-round.png" alt="Responsive image">
+    </a>
+  </div>
+</div>
+
